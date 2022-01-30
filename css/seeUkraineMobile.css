@@ -1,0 +1,166 @@
+body{
+	margin: 0;
+	padding: 0;
+	/*background-image: url('https://vseua.info/wp-content/uploads/2018/10/jspolxef90k.jpg');
+	  background-image: url('https://image.freepik.com/free-photo/_35024-263.jpg');*/
+}
+header{
+	border-bottom: solid 1px black;
+	padding: .3rem .6rem;
+	margin: 0;
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 0;
+	z-index: 9999;
+	background: white;
+}
+
+header a{
+	text-decoration: none;
+	color: black;
+
+}
+
+header img{
+		width: 2rem;
+		height: 2rem;
+}
+
+header button{
+	position: absolute;
+	right: .6rem;
+	top: .7rem;
+
+}
+
+header button i{
+	font-size: 1rem;
+}
+
+header *{
+	vertical-align: middle;
+}
+
+
+nav ul{
+	position: fixed;
+	left: -10rem;
+	top: 0;
+	list-style: none;
+	display: inline-block;
+	width: 10rem;
+	max-width: 60vw;
+	height: 100vh;
+	background-color: #ece6e6;
+	margin: 0;
+	padding: 0;
+}
+nav ul li{
+	margin: 0 auto;
+	text-align: center;
+}
+nav ul a{
+	display: inline-block;
+	padding: 1.5rem 0;
+	text-align: center;
+}
+
+h1{
+	color: white;
+	width: 100%;
+	height: 100vh;
+	background-image: url('https://www.kapitoliy.net.ua/wp-content/uploads/2019/06/Tunel-kohannya-1.jpg');
+	background-size: 100% 100vh;
+}
+span.center{
+	width: 70vw;
+	position: absolute;
+	left: 2rem;
+	bottom: 1rem;
+	
+}
+
+h2, h3{
+	text-align: center;
+}
+
+main > section{
+	padding-top: 2.6rem;
+
+}
+
+section > div{
+	overflow: auto;
+	margin: 10vh auto;
+	padding: 1vh 0;
+	width: 80vw;
+	height: 19rem;
+}
+
+
+
+section div.nature{
+	background-color: #c1f7c1ba;
+}
+section div.history{
+	background-color: #d1ecfda1;
+}
+
+section div.architecture{
+	background-color: #fdfbd1a1;
+}
+
+section div p{
+	width: 66vw;
+	padding: 0;
+	margin: 0;
+	margin-top: .3rem;
+}
+
+section img{
+	max-height: 58vh;
+	width: 66vw;
+	display: block;
+	margin: 0;
+	margin-bottom: .3rem;
+}
+
+div.container{
+	width: 80vw;
+	height: 19rem;
+	display: flex;
+	padding: 0;
+	margin: 0;
+}
+div.content{
+	display: inline-block;
+	padding: 0;
+	margin: auto;
+	width: 66vw;
+}
+footer{
+	font-size: 1rem;
+	background-color: #e6dedeb8;
+	padding: 1rem 2rem;
+	margin: 0;
+}
+footer h2{
+	font-size: 1rem;
+}
+footer ul{
+	text-align: center;
+	list-style: none;
+}
+
+footer a{
+	text-decoration: none;
+}
+
+
+.void{
+}
+
+.blurry{
+	filter: blur(6px);
+}
